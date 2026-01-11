@@ -654,6 +654,53 @@ blockquote cite {
     font-size: 0.9rem;
 }
 
+.key-work {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.contact-info {
+    font-size: 0.85rem;
+    color: var(--blue-primary);
+    margin-top: 0.25rem;
+}
+
+.org-programs {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.org-address {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
+.directory-link {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: var(--cream);
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.platforms {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
+.director {
+    font-weight: 600;
+    color: var(--blue-primary);
+}
+
+.work-item.new-research {
+    background: linear-gradient(to right, #28a745 3px, rgba(40, 167, 69, 0.05) 3px);
+}
+
 /* Mental Health Section */
 .mental-health-section {
     padding: 4rem 0;
