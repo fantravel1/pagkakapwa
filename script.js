@@ -87,4 +87,49 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
     });
+
+    // Scroll Reveal Animations
+    const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+    const animatedGrids = document.querySelectorAll('.org-grid, .institution-grid, .hotline-grid, .glossary-grid');
+    const animatedSections = document.querySelectorAll('section');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Grid stagger animation observer
+    const gridObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+            }
+        });
+    }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -30px 0px'
+    });
+
+    animatedGrids.forEach(grid => gridObserver.observe(grid));
+
+    // Section heading animation
+    const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+            }
+        });
+    }, {
+        threshold: 0.05
+    });
+
+    animatedSections.forEach(section => sectionObserver.observe(section));
 });
