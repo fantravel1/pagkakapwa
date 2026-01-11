@@ -2157,3 +2157,156 @@ a:focus-visible {
         scroll-behavior: auto;
     }
 }
+
+/* ===== NEW CONTENT SECTIONS ===== */
+
+/* Arts & Literature Section */
+.arts-section {
+    background: var(--white);
+}
+
+.arts-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.literary-giants,
+.contemporary-authors,
+.poetry-section,
+.cinema-section,
+.music-section,
+.visual-arts-section {
+    margin-bottom: 3rem;
+}
+
+/* Language Section */
+.language-section {
+    background: var(--gray-50);
+}
+
+.language-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.filipino-language,
+.regional-languages,
+.heritage-programs,
+.baybayin-learning,
+.kids-resources {
+    margin-bottom: 3rem;
+}
+
+/* Business Section */
+.business-section {
+    background: var(--white);
+}
+
+.business-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.remittance-economy,
+.notable-entrepreneurs,
+.business-associations,
+.bpo-industry,
+.healthcare-workers,
+.maritime-industry {
+    margin-bottom: 3rem;
+}
+
+/* Regional Section */
+.regional-section {
+    background: var(--gray-50);
+}
+
+.regional-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.major-groups,
+.moro-peoples,
+.indigenous-peoples,
+.regional-cuisine,
+.festivals-region {
+    margin-bottom: 3rem;
+}
+
+.regional-section h4 {
+    color: var(--primary-600);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+/* Filipino American History Section */
+.filam-history-section {
+    background: var(--white);
+}
+
+.filam-history-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.early-history,
+.colonial-period,
+.labor-movement,
+.wwii-veterans,
+.immigration-waves,
+.civil-rights,
+.notable-filams,
+.fahm-info {
+    margin-bottom: 3rem;
+}
+
+/* OFW Section */
+.ofw-section {
+    background: var(--gray-50);
+}
+
+.ofw-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.government-agencies,
+.by-country,
+.ofw-rights,
+.emergency-hotlines,
+.financial-literacy,
+.reintegration,
+.advocacy-groups {
+    margin-bottom: 3rem;
+}
+
+.by-country .region-block {
+    margin-bottom: 2.5rem;
+}
+
+.by-country .region-block h4 {
+    color: var(--primary-600);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--gray-200);
+}
