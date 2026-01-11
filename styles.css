@@ -2310,3 +2310,113 @@ a:focus-visible {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--gray-200);
 }
+
+/* Food Section */
+.food-section {
+    background: var(--white);
+}
+
+.food-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.iconic-dishes,
+.breakfast-classics,
+.street-food,
+.kakanin,
+.filipino-restaurants,
+.food-culture {
+    margin-bottom: 3rem;
+}
+
+/* Sports Section */
+.sports-section {
+    background: var(--gray-50);
+}
+
+.sports-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.boxing-legends,
+.basketball,
+.olympics,
+.billiards,
+.combat-sports,
+.esports,
+.other-sports {
+    margin-bottom: 3rem;
+}
+
+/* Science Section */
+.science-section {
+    background: var(--white);
+}
+
+.science-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.notable-scientists,
+.inventors,
+.medical-breakthroughs,
+.space-tech,
+.tech-leaders {
+    margin-bottom: 3rem;
+}
+
+/* Traditions Section */
+.traditions-section {
+    background: var(--gray-50);
+}
+
+.traditions-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.christmas-traditions,
+.holy-week,
+.fiestas,
+.family-traditions,
+.lifecycle-rituals,
+.superstitions {
+    margin-bottom: 3rem;
+}
+
+/* Travel Section */
+.travel-section {
+    background: var(--white);
+}
+
+.travel-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.unesco-sites,
+.natural-wonders,
+.beaches,
+.cultural-destinations,
+.museums,
+.travel-tips {
+    margin-bottom: 3rem;
+}
