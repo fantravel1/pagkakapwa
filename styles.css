@@ -184,10 +184,32 @@ a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--blue-primary) 0%, #004ec9 100%);
+    background: linear-gradient(135deg, var(--blue-primary) 0%, #004ec9 50%, #0038a8 100%);
+    background-size: 200% 200%;
+    animation: heroGradient 8s ease infinite;
     color: var(--white);
     padding: 5rem 1.5rem;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes heroGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at 20% 50%, rgba(252, 209, 22, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 50%, rgba(206, 17, 38, 0.08) 0%, transparent 50%);
+    pointer-events: none;
 }
 
 .hero-content {
@@ -412,6 +434,40 @@ blockquote cite {
 
 .key-scholars {
     margin-bottom: 2.5rem;
+}
+
+.research-orgs {
+    margin-bottom: 2.5rem;
+}
+
+.recommended-books {
+    margin-bottom: 2.5rem;
+}
+
+.tedx-events {
+    margin-bottom: 2.5rem;
+}
+
+/* Card hover effects */
+.org-card,
+.institution-card,
+.hotline-card,
+.journal-card,
+.resolution-card,
+.educator-card,
+.doc-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.org-card:hover,
+.institution-card:hover,
+.hotline-card:hover,
+.journal-card:hover,
+.resolution-card:hover,
+.educator-card:hover,
+.doc-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
 .academic-journals {
