@@ -1,0 +1,73 @@
+{
+  "name": "Pagkakapwa - The Global Filipino Identity Engine",
+  "short_name": "Pagkakapwa",
+  "description": "Exploring kapwa (shared identity), the core concept of Sikolohiyang Pilipino (Filipino Psychology) founded by Virgilio Enriquez. Resources for the global Filipino diaspora.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0038a8",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["education", "lifestyle", "social"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Pagkakapwa Homepage"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "About Kapwa",
+      "short_name": "About",
+      "description": "Learn about the kapwa concept",
+      "url": "/#about",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mental Health Resources",
+      "short_name": "Mental Health",
+      "description": "Filipino mental health support",
+      "url": "/#mental-health",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Diaspora Organizations",
+      "short_name": "Diaspora",
+      "description": "Global Filipino organizations",
+      "url": "/#diaspora",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Youth Programs",
+      "short_name": "Youth",
+      "description": "Youth leadership and scholarships",
+      "url": "/#youth",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
