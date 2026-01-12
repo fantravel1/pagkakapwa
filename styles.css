@@ -4657,3 +4657,542 @@ a:focus-visible {
 .pod-card .news-item strong {
     color: var(--white);
 }
+
+/* ===== TABLE OF CONTENTS / SITE INDEX SECTION ===== */
+.toc-section {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d4a6f 50%, #1e3a5f 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.toc-section h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.toc-section .section-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.toc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.toc-category {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.toc-category:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.toc-category h3 {
+    color: #93c5fd;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid rgba(147, 197, 253, 0.3);
+}
+
+.toc-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-category li {
+    margin-bottom: 0.5rem;
+}
+
+.toc-category a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+    display: block;
+    padding: 0.25rem 0;
+}
+
+.toc-category a:hover {
+    color: #93c5fd;
+}
+
+/* ===== SENIOR FILIPINOS SECTION ===== */
+.seniors-section {
+    background: linear-gradient(135deg, #7c2d12 0%, #c2410c 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.seniors-section h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.seniors-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.senior-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.senior-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.senior-card:hover {
+    transform: translateY(-4px);
+}
+
+.senior-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.senior-card h3 {
+    color: #fed7aa;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.senior-card p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.senior-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.senior-card li {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.senior-card li:last-child {
+    border-bottom: none;
+}
+
+.senior-card strong {
+    color: #fdba74;
+}
+
+.senior-resources {
+    text-align: center;
+}
+
+.senior-resources h3 {
+    color: #fed7aa;
+    margin-bottom: 1.5rem;
+}
+
+.org-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.org-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-md);
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.org-link:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+/* ===== FILM & CINEMA SECTION ===== */
+.film-section {
+    background: linear-gradient(135deg, #18181b 0%, #3f3f46 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.film-section h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.film-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.film-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.film-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.film-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.film-card.classic {
+    border-left: 4px solid #fbbf24;
+}
+
+.film-card.indie {
+    border-left: 4px solid #a78bfa;
+}
+
+.film-card.diaspora {
+    border-left: 4px solid #34d399;
+}
+
+.film-card.hollywood {
+    border-left: 4px solid #f472b6;
+}
+
+.film-card.documentary {
+    border-left: 4px solid #60a5fa;
+}
+
+.film-card.streaming {
+    border-left: 4px solid #fb923c;
+}
+
+.film-card h3 {
+    color: var(--white);
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.film-card p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.film-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.film-card li {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.film-card li:last-child {
+    border-bottom: none;
+}
+
+.film-card strong {
+    color: #fbbf24;
+}
+
+.film-must-watch {
+    text-align: center;
+}
+
+.film-must-watch h3 {
+    color: var(--white);
+    margin-bottom: 1.5rem;
+}
+
+.must-watch-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.film-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(251, 191, 36, 0.2);
+    border: 1px solid rgba(251, 191, 36, 0.4);
+    border-radius: var(--radius-full);
+    color: #fde68a;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* ===== LITERATURE & WRITERS SECTION ===== */
+.literature-section {
+    background: linear-gradient(135deg, #4a1942 0%, #831843 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.literature-section h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.literature-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.lit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.lit-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.lit-card:hover {
+    transform: translateY(-4px);
+}
+
+.lit-card.classics {
+    border-top: 4px solid #fbbf24;
+}
+
+.lit-card.contemporary {
+    border-top: 4px solid #a78bfa;
+}
+
+.lit-card.diaspora {
+    border-top: 4px solid #34d399;
+}
+
+.lit-card.poetry {
+    border-top: 4px solid #f472b6;
+}
+
+.lit-card.ya {
+    border-top: 4px solid #60a5fa;
+}
+
+.lit-card.resources {
+    border-top: 4px solid #fb923c;
+}
+
+.lit-card h3 {
+    color: #fbcfe8;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.lit-card p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.lit-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lit-card li {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lit-card li:last-child {
+    border-bottom: none;
+}
+
+.lit-card strong {
+    color: #f9a8d4;
+}
+
+.lit-reading-list {
+    text-align: center;
+}
+
+.lit-reading-list h3 {
+    color: #fbcfe8;
+    margin-bottom: 1.5rem;
+}
+
+.book-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.book-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(244, 114, 182, 0.2);
+    border: 1px solid rgba(244, 114, 182, 0.4);
+    border-radius: var(--radius-full);
+    color: #fbcfe8;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+/* ===== ACTIVISM & SOCIAL JUSTICE SECTION ===== */
+.activism-section {
+    background: linear-gradient(135deg, #7f1d1d 0%, #b91c1c 50%, #991b1b 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.activism-section h2 {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.activism-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.activism-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.activism-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.activism-card:hover {
+    transform: translateY(-4px);
+}
+
+.activism-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.activism-card h3 {
+    color: #fecaca;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.activism-card p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.activism-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activism-card li {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.activism-card li:last-child {
+    border-bottom: none;
+}
+
+.activism-card strong {
+    color: #fca5a5;
+}
+
+.activism-figures {
+    text-align: center;
+}
+
+.activism-figures h3 {
+    color: #fecaca;
+    margin-bottom: 1.5rem;
+}
+
+.figure-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.figure-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(252, 165, 165, 0.2);
+    border: 1px solid rgba(252, 165, 165, 0.4);
+    border-radius: var(--radius-full);
+    color: #fecaca;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
