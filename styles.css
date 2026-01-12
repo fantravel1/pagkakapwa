@@ -3856,3 +3856,441 @@ a:focus-visible {
     line-height: 1.6;
     margin: 0.25rem 0 0;
 }
+
+/* ===== LGBTQ+ SECTION ===== */
+.lgbtq-section {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #fce7f3 100%);
+    padding: 5rem 0;
+}
+
+.lgbtq-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.lgbtq-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.lgbtq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.lgbtq-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.lgbtq-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.lgbtq-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #a855f7;
+}
+
+.lgbtq-card .history-content,
+.lgbtq-card .rights-content,
+.icon-list,
+.lgbtq-card .org-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hist-item,
+.lgbtq-card .rights-item,
+.icon,
+.lgbtq-card .org-item {
+    padding: 1rem;
+    background: #faf5ff;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #a855f7;
+}
+
+.hist-item h4,
+.lgbtq-card .rights-item h4,
+.icon h4,
+.lgbtq-card .org-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.hist-item p,
+.lgbtq-card .rights-item p,
+.icon p,
+.lgbtq-card .org-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== MYTHOLOGY & FOLKLORE SECTION ===== */
+.mythology-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.mythology-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.mythology-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.mythology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.myth-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.myth-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.myth-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #8b5cf6;
+}
+
+.deity-list,
+.creature-list,
+.epic-list,
+.creation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.deity,
+.creature,
+.epic,
+.story {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #8b5cf6;
+}
+
+.deity h4,
+.creature h4,
+.epic h4,
+.story h4 {
+    color: #c4b5fd;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.deity p,
+.creature p,
+.epic p,
+.story p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== TRADITIONAL GAMES SECTION ===== */
+.games-section {
+    background: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+    padding: 5rem 0;
+}
+
+.games-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.games-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.game-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.game-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.game-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #eab308;
+}
+
+.game-list,
+.toy-list,
+.revival-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.game,
+.toy,
+.revival-item {
+    padding: 1rem;
+    background: #fefce8;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #eab308;
+}
+
+.game h4,
+.toy h4,
+.revival-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.game p,
+.toy p,
+.revival-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== GENEALOGY SECTION ===== */
+.genealogy-section {
+    background: var(--gray-100);
+    padding: 5rem 0;
+}
+
+.genealogy-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.genealogy-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.genealogy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.gen-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.gen-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.gen-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #78716c;
+}
+
+.record-list,
+.surname-content,
+.dna-content,
+.gen-card .resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.record,
+.surname-item,
+.dna-item,
+.gen-card .resource {
+    padding: 1rem;
+    background: var(--gray-50);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #78716c;
+}
+
+.record h4,
+.surname-item h4,
+.dna-item h4,
+.gen-card .resource h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.record p,
+.surname-item p,
+.dna-item p,
+.gen-card .resource p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== MILITARY & VETERANS SECTION ===== */
+.military-section {
+    background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.military-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.military-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.military-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.mil-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.mil-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.mil-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #9ca3af;
+}
+
+.wwii-content,
+.modern-content,
+.hero-list,
+.vet-resources {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.wwii-item,
+.modern-item,
+.hero,
+.vet-item {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #9ca3af;
+}
+
+.wwii-item h4,
+.modern-item h4,
+.hero h4,
+.vet-item h4 {
+    color: #d1d5db;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.wwii-item p,
+.modern-item p,
+.hero p,
+.vet-item p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
