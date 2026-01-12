@@ -3388,3 +3388,471 @@ a:focus-visible {
     padding: 1rem;
     margin: 1rem 0;
 }
+
+/* ===== HEALTH & WELLNESS SECTION ===== */
+.health-section {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    padding: 5rem 0;
+}
+
+.health-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.health-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.health-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.health-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.health-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.health-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #10b981;
+}
+
+.nurse-content,
+.trad-medicine,
+.mental-content,
+.diaspora-health-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.nurse-stat,
+.nurse-history,
+.nurse-orgs,
+.practice,
+.mh-item,
+.dh-item {
+    padding: 1rem;
+    background: #ecfdf5;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #10b981;
+}
+
+.nurse-stat h4,
+.nurse-history h4,
+.nurse-orgs h4,
+.practice h4,
+.mh-item h4,
+.dh-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.nurse-stat p,
+.nurse-history p,
+.nurse-orgs p,
+.practice p,
+.mh-item p,
+.dh-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.nurse-orgs strong,
+.mh-item strong {
+    color: var(--gray-900);
+}
+
+/* ===== TECHNOLOGY & STARTUPS SECTION ===== */
+.tech-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.tech-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tech-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.tech-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.tech-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+}
+
+.tech-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #3b82f6;
+}
+
+.bpo-content,
+.startup-list,
+.talent-content,
+.hub-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bpo-stat,
+.bpo-evolution,
+.startup,
+.talent-item,
+.hub {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #3b82f6;
+}
+
+.bpo-stat h4,
+.bpo-evolution h4,
+.startup h4,
+.talent-item h4,
+.hub h4 {
+    color: #93c5fd;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.bpo-stat p,
+.bpo-evolution p,
+.startup p,
+.talent-item p,
+.hub p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.startup strong,
+.talent-item strong {
+    color: var(--white);
+}
+
+/* ===== INDIGENOUS PEOPLES SECTION ===== */
+.indigenous-section {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    padding: 5rem 0;
+}
+
+.indigenous-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.indigenous-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.indigenous-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.ip-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.ip-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.ip-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #d97706;
+}
+
+.ip-list,
+.rights-content,
+.support-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ip-group,
+.ip-card .rights-item,
+.ip-card .support-item {
+    padding: 1rem;
+    background: #fffbeb;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #d97706;
+}
+
+.ip-group h4,
+.ip-card .rights-item h4,
+.ip-card .support-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.ip-group p,
+.ip-card .rights-item p,
+.ip-card .support-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.ip-group strong {
+    color: var(--gray-900);
+}
+
+/* ===== MARITIME HERITAGE SECTION ===== */
+.maritime-section {
+    background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.maritime-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.maritime-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.maritime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.mar-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.mar-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.mar-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #38bdf8;
+}
+
+.history-content,
+.seafarer-content,
+.fishing-content,
+.boat-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.history-item,
+.seafarer-stat,
+.seafarer-info,
+.seafarer-orgs,
+.fishing-item,
+.boat {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #38bdf8;
+}
+
+.history-item h4,
+.seafarer-stat h4,
+.seafarer-info h4,
+.seafarer-orgs h4,
+.fishing-item h4,
+.boat h4 {
+    color: #7dd3fc;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.history-item p,
+.seafarer-stat p,
+.seafarer-info p,
+.seafarer-orgs p,
+.fishing-item p,
+.boat p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== WOMEN'S HISTORY SECTION ===== */
+.women-section {
+    background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+    padding: 5rem 0;
+}
+
+.women-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.women-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.women-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.women-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.women-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.women-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #ec4899;
+}
+
+.precolonial-content,
+.revolutionary-list,
+.trailblazer-list,
+.rights-today {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pc-item,
+.revolutionary,
+.trailblazer,
+.women-card .rights-item {
+    padding: 1rem;
+    background: #fdf2f8;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #ec4899;
+}
+
+.pc-item h4,
+.revolutionary h4,
+.trailblazer h4,
+.women-card .rights-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.pc-item p,
+.revolutionary p,
+.trailblazer p,
+.women-card .rights-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
