@@ -2157,3 +2157,2140 @@ a:focus-visible {
         scroll-behavior: auto;
     }
 }
+
+/* ===== NEW CONTENT SECTIONS ===== */
+
+/* Arts & Literature Section */
+.arts-section {
+    background: var(--white);
+}
+
+.arts-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.literary-giants,
+.contemporary-authors,
+.poetry-section,
+.cinema-section,
+.music-section,
+.visual-arts-section {
+    margin-bottom: 3rem;
+}
+
+/* Language Section */
+.language-section {
+    background: var(--gray-50);
+}
+
+.language-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.filipino-language,
+.regional-languages,
+.heritage-programs,
+.baybayin-learning,
+.kids-resources {
+    margin-bottom: 3rem;
+}
+
+/* Business Section */
+.business-section {
+    background: var(--white);
+}
+
+.business-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.remittance-economy,
+.notable-entrepreneurs,
+.business-associations,
+.bpo-industry,
+.healthcare-workers,
+.maritime-industry {
+    margin-bottom: 3rem;
+}
+
+/* Regional Section */
+.regional-section {
+    background: var(--gray-50);
+}
+
+.regional-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.major-groups,
+.moro-peoples,
+.indigenous-peoples,
+.regional-cuisine,
+.festivals-region {
+    margin-bottom: 3rem;
+}
+
+.regional-section h4 {
+    color: var(--primary-600);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+/* Filipino American History Section */
+.filam-history-section {
+    background: var(--white);
+}
+
+.filam-history-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.early-history,
+.colonial-period,
+.labor-movement,
+.wwii-veterans,
+.immigration-waves,
+.civil-rights,
+.notable-filams,
+.fahm-info {
+    margin-bottom: 3rem;
+}
+
+/* OFW Section */
+.ofw-section {
+    background: var(--gray-50);
+}
+
+.ofw-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.government-agencies,
+.by-country,
+.ofw-rights,
+.emergency-hotlines,
+.financial-literacy,
+.reintegration,
+.advocacy-groups {
+    margin-bottom: 3rem;
+}
+
+.by-country .region-block {
+    margin-bottom: 2.5rem;
+}
+
+.by-country .region-block h4 {
+    color: var(--primary-600);
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+/* Food Section */
+.food-section {
+    background: var(--white);
+}
+
+.food-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.iconic-dishes,
+.breakfast-classics,
+.street-food,
+.kakanin,
+.filipino-restaurants,
+.food-culture {
+    margin-bottom: 3rem;
+}
+
+/* Sports Section */
+.sports-section {
+    background: var(--gray-50);
+}
+
+.sports-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.boxing-legends,
+.basketball,
+.olympics,
+.billiards,
+.combat-sports,
+.esports,
+.other-sports {
+    margin-bottom: 3rem;
+}
+
+/* Science Section */
+.science-section {
+    background: var(--white);
+}
+
+.science-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.notable-scientists,
+.inventors,
+.medical-breakthroughs,
+.space-tech,
+.tech-leaders {
+    margin-bottom: 3rem;
+}
+
+/* Traditions Section */
+.traditions-section {
+    background: var(--gray-50);
+}
+
+.traditions-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.christmas-traditions,
+.holy-week,
+.fiestas,
+.family-traditions,
+.lifecycle-rituals,
+.superstitions {
+    margin-bottom: 3rem;
+}
+
+/* Travel Section */
+.travel-section {
+    background: var(--white);
+}
+
+.travel-section h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-200);
+}
+
+.unesco-sites,
+.natural-wonders,
+.beaches,
+.cultural-destinations,
+.museums,
+.travel-tips {
+    margin-bottom: 3rem;
+}
+
+/* ===== FASHION & TEXTILE HERITAGE SECTION ===== */
+.fashion-section {
+    background: linear-gradient(135deg, var(--gray-50) 0%, #fdf4ff 100%);
+    padding: 5rem 0;
+}
+
+.fashion-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.fashion-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.fashion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.fashion-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.fashion-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.fashion-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #d8b4fe;
+}
+
+.textile-list,
+.attire-showcase,
+.designer-grid,
+.org-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.textile-item,
+.attire-item,
+.designer,
+.org-item {
+    padding: 1rem;
+    background: var(--gray-50);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #a855f7;
+}
+
+.textile-item h4,
+.attire-item h4,
+.designer h4,
+.org-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.textile-item .origin {
+    font-size: 0.875rem;
+    color: #9333ea;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.textile-item p,
+.attire-item p,
+.designer p,
+.org-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== ARCHITECTURE & DESIGN SECTION ===== */
+.architecture-section {
+    background: var(--white);
+    padding: 5rem 0;
+}
+
+.architecture-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.architecture-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.arch-card {
+    background: var(--gray-50);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-base);
+}
+
+.arch-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.arch-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gray-300);
+}
+
+.structure-list,
+.architect-list,
+.heritage-initiatives {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.structure,
+.architect,
+.initiative {
+    padding: 1rem;
+    background: var(--white);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--primary-500);
+}
+
+.structure h4,
+.architect h4,
+.initiative h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.structure p,
+.architect p,
+.initiative p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.architect .style {
+    font-style: italic;
+    color: var(--primary-600);
+}
+
+/* ===== MEDIA & ENTERTAINMENT SECTION ===== */
+.media-section {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.media-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.media-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.media-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.media-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-4px);
+}
+
+.media-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.media-card h4 {
+    color: #fbbf24;
+    font-size: 1rem;
+    margin: 1.25rem 0 0.75rem;
+}
+
+.media-card h4:first-child {
+    margin-top: 0;
+}
+
+.film-content,
+.music-content,
+.tv-content,
+.digital-content {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.film-list,
+.artist-list,
+.network-list,
+.show-list,
+.creator-list,
+.gaming-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.film-list p,
+.artist-list p,
+.network-list p,
+.show-list p,
+.creator-list p,
+.gaming-list p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 1rem;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.film-list strong,
+.artist-list strong,
+.network-list strong,
+.creator-list strong {
+    color: var(--white);
+}
+
+/* ===== ENVIRONMENTAL CONSERVATION SECTION ===== */
+.environment-section {
+    background: linear-gradient(135deg, #022c22 0%, #065f46 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.environment-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.environment-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.environment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.env-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.env-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.env-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #34d399;
+}
+
+.bio-facts,
+.climate-content,
+.action-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.fact-item,
+.climate-fact,
+.support-item {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #10b981;
+}
+
+.fact-item h4,
+.climate-fact h4,
+.support-item h4 {
+    color: #6ee7b7;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.fact-item p,
+.climate-fact p,
+.support-item p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.env-card.conservation .org-list {
+    gap: 1rem;
+}
+
+.env-card.conservation .org-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: #10b981;
+}
+
+.env-card.conservation .org-item h4 {
+    color: #6ee7b7;
+}
+
+.env-card.conservation .org-item p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* ===== EDUCATION SECTION ===== */
+.education-section {
+    background: var(--gray-50);
+    padding: 5rem 0;
+}
+
+.education-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.education-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.edu-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.edu-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.edu-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--primary-400);
+}
+
+.system-overview,
+.uni-list,
+.achievement-list,
+.diaspora-edu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.system-item,
+.uni-item,
+.achievement,
+.edu-resource {
+    padding: 1rem;
+    background: var(--gray-50);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--primary-500);
+}
+
+.system-item h4,
+.uni-item h4,
+.achievement h4,
+.edu-resource h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.system-item p,
+.uni-item p,
+.achievement p,
+.edu-resource p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.uni-item .notable {
+    font-style: italic;
+    color: var(--primary-600);
+    margin-top: 0.5rem;
+}
+
+/* ===== MARTIAL ARTS SECTION ===== */
+.martial-arts-section {
+    background: linear-gradient(135deg, #1c1917 0%, #292524 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.martial-arts-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.martial-arts-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.martial-arts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.ma-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.ma-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+}
+
+.ma-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #dc2626;
+}
+
+.ma-content,
+.style-list,
+.weapon-list,
+.training-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ma-item,
+.style-item,
+.weapon {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #dc2626;
+}
+
+.ma-item h4,
+.style-item h4,
+.weapon h4 {
+    color: #fca5a5;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.style-item .origin {
+    font-size: 0.875rem;
+    color: #f87171;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.ma-item p,
+.style-item p,
+.weapon p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.training-content h4 {
+    color: #fca5a5;
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.training-content h4:first-child {
+    margin-top: 0;
+}
+
+.training-content p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.training-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.training-list li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+}
+
+/* ===== DANCE & PERFORMING ARTS SECTION ===== */
+.dance-section {
+    background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%);
+    padding: 5rem 0;
+}
+
+.dance-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.dance-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.dance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.dance-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.dance-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.dance-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #d946ef;
+}
+
+.folk-list,
+.indigenous-list,
+.company-list,
+.global-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.folk-item,
+.indigenous-item,
+.company,
+.global-item {
+    padding: 1rem;
+    background: #fdf4ff;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #d946ef;
+}
+
+.folk-item h4,
+.indigenous-item h4,
+.company h4,
+.global-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.folk-item p,
+.indigenous-item p,
+.company p,
+.global-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== RELIGION & SPIRITUALITY SECTION ===== */
+.religion-section {
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    padding: 5rem 0;
+}
+
+.religion-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.religion-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.religion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.rel-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.rel-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.rel-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #f59e0b;
+}
+
+.catholic-content,
+.indigenous-content,
+.faith-list,
+.diaspora-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tradition,
+.belief,
+.faith,
+.diaspora-item {
+    padding: 1rem;
+    background: #fffbeb;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #f59e0b;
+}
+
+.tradition h4,
+.belief h4,
+.faith h4,
+.diaspora-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.tradition p,
+.belief p,
+.faith p,
+.diaspora-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== COMMUNITY ORGANIZATIONS SECTION ===== */
+.community-section {
+    background: var(--primary-600);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.community-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.community-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.community-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.comm-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.comm-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.comm-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.comm-card .org-list,
+.prof-list,
+.cultural-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.comm-card .org-item,
+.prof-item,
+.cultural-item {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.comm-card .org-item h4,
+.prof-item h4,
+.cultural-item h4 {
+    color: var(--white);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.comm-card .org-item p,
+.prof-item p,
+.cultural-item p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== PRACTICAL RESOURCES SECTION ===== */
+.resources-section {
+    background: var(--gray-50);
+    padding: 5rem 0;
+}
+
+.resources-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.resources-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.res-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.res-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.res-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--primary-500);
+}
+
+.res-card h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin: 1.25rem 0 0.5rem;
+}
+
+.res-card h4:first-child {
+    margin-top: 0;
+}
+
+.res-card p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0;
+}
+
+.res-card ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    color: var(--gray-600);
+    margin: 0.5rem 0;
+}
+
+.res-card ul li {
+    margin-bottom: 0.375rem;
+    font-size: 0.9375rem;
+}
+
+.service-list,
+.legal-orgs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.service-list p,
+.legal-orgs p {
+    padding-left: 1rem;
+    border-left: 2px solid var(--gray-200);
+}
+
+.service-list strong,
+.legal-orgs strong {
+    color: var(--gray-900);
+}
+
+.process-steps {
+    background: var(--gray-50);
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* ===== HEALTH & WELLNESS SECTION ===== */
+.health-section {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    padding: 5rem 0;
+}
+
+.health-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.health-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.health-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.health-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.health-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.health-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #10b981;
+}
+
+.nurse-content,
+.trad-medicine,
+.mental-content,
+.diaspora-health-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.nurse-stat,
+.nurse-history,
+.nurse-orgs,
+.practice,
+.mh-item,
+.dh-item {
+    padding: 1rem;
+    background: #ecfdf5;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #10b981;
+}
+
+.nurse-stat h4,
+.nurse-history h4,
+.nurse-orgs h4,
+.practice h4,
+.mh-item h4,
+.dh-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.nurse-stat p,
+.nurse-history p,
+.nurse-orgs p,
+.practice p,
+.mh-item p,
+.dh-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.nurse-orgs strong,
+.mh-item strong {
+    color: var(--gray-900);
+}
+
+/* ===== TECHNOLOGY & STARTUPS SECTION ===== */
+.tech-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.tech-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.tech-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.tech-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.tech-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+}
+
+.tech-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #3b82f6;
+}
+
+.bpo-content,
+.startup-list,
+.talent-content,
+.hub-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bpo-stat,
+.bpo-evolution,
+.startup,
+.talent-item,
+.hub {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #3b82f6;
+}
+
+.bpo-stat h4,
+.bpo-evolution h4,
+.startup h4,
+.talent-item h4,
+.hub h4 {
+    color: #93c5fd;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.bpo-stat p,
+.bpo-evolution p,
+.startup p,
+.talent-item p,
+.hub p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.startup strong,
+.talent-item strong {
+    color: var(--white);
+}
+
+/* ===== INDIGENOUS PEOPLES SECTION ===== */
+.indigenous-section {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    padding: 5rem 0;
+}
+
+.indigenous-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.indigenous-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.indigenous-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.ip-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.ip-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.ip-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #d97706;
+}
+
+.ip-list,
+.rights-content,
+.support-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ip-group,
+.ip-card .rights-item,
+.ip-card .support-item {
+    padding: 1rem;
+    background: #fffbeb;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #d97706;
+}
+
+.ip-group h4,
+.ip-card .rights-item h4,
+.ip-card .support-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.ip-group p,
+.ip-card .rights-item p,
+.ip-card .support-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+.ip-group strong {
+    color: var(--gray-900);
+}
+
+/* ===== MARITIME HERITAGE SECTION ===== */
+.maritime-section {
+    background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.maritime-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.maritime-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.maritime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.mar-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.mar-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.mar-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #38bdf8;
+}
+
+.history-content,
+.seafarer-content,
+.fishing-content,
+.boat-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.history-item,
+.seafarer-stat,
+.seafarer-info,
+.seafarer-orgs,
+.fishing-item,
+.boat {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #38bdf8;
+}
+
+.history-item h4,
+.seafarer-stat h4,
+.seafarer-info h4,
+.seafarer-orgs h4,
+.fishing-item h4,
+.boat h4 {
+    color: #7dd3fc;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.history-item p,
+.seafarer-stat p,
+.seafarer-info p,
+.seafarer-orgs p,
+.fishing-item p,
+.boat p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== WOMEN'S HISTORY SECTION ===== */
+.women-section {
+    background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+    padding: 5rem 0;
+}
+
+.women-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.women-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.women-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.women-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.women-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.women-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #ec4899;
+}
+
+.precolonial-content,
+.revolutionary-list,
+.trailblazer-list,
+.rights-today {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pc-item,
+.revolutionary,
+.trailblazer,
+.women-card .rights-item {
+    padding: 1rem;
+    background: #fdf2f8;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #ec4899;
+}
+
+.pc-item h4,
+.revolutionary h4,
+.trailblazer h4,
+.women-card .rights-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.pc-item p,
+.revolutionary p,
+.trailblazer p,
+.women-card .rights-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== LGBTQ+ SECTION ===== */
+.lgbtq-section {
+    background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 50%, #fce7f3 100%);
+    padding: 5rem 0;
+}
+
+.lgbtq-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.lgbtq-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.lgbtq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.lgbtq-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.lgbtq-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.lgbtq-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #a855f7;
+}
+
+.lgbtq-card .history-content,
+.lgbtq-card .rights-content,
+.icon-list,
+.lgbtq-card .org-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hist-item,
+.lgbtq-card .rights-item,
+.icon,
+.lgbtq-card .org-item {
+    padding: 1rem;
+    background: #faf5ff;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #a855f7;
+}
+
+.hist-item h4,
+.lgbtq-card .rights-item h4,
+.icon h4,
+.lgbtq-card .org-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.hist-item p,
+.lgbtq-card .rights-item p,
+.icon p,
+.lgbtq-card .org-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== MYTHOLOGY & FOLKLORE SECTION ===== */
+.mythology-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.mythology-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.mythology-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.mythology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.myth-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.myth-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.myth-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #8b5cf6;
+}
+
+.deity-list,
+.creature-list,
+.epic-list,
+.creation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.deity,
+.creature,
+.epic,
+.story {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #8b5cf6;
+}
+
+.deity h4,
+.creature h4,
+.epic h4,
+.story h4 {
+    color: #c4b5fd;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.deity p,
+.creature p,
+.epic p,
+.story p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== TRADITIONAL GAMES SECTION ===== */
+.games-section {
+    background: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+    padding: 5rem 0;
+}
+
+.games-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.games-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.game-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.game-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.game-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #eab308;
+}
+
+.game-list,
+.toy-list,
+.revival-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.game,
+.toy,
+.revival-item {
+    padding: 1rem;
+    background: #fefce8;
+    border-radius: var(--radius-md);
+    border-left: 3px solid #eab308;
+}
+
+.game h4,
+.toy h4,
+.revival-item h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.game p,
+.toy p,
+.revival-item p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===== GENEALOGY SECTION ===== */
+.genealogy-section {
+    background: var(--gray-100);
+    padding: 5rem 0;
+}
+
+.genealogy-section h2 {
+    font-family: var(--font-serif);
+    color: var(--gray-900);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.genealogy-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.genealogy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.gen-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.gen-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.gen-card h3 {
+    color: var(--gray-900);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #78716c;
+}
+
+.record-list,
+.surname-content,
+.dna-content,
+.gen-card .resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.record,
+.surname-item,
+.dna-item,
+.gen-card .resource {
+    padding: 1rem;
+    background: var(--gray-50);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #78716c;
+}
+
+.record h4,
+.surname-item h4,
+.dna-item h4,
+.gen-card .resource h4 {
+    color: var(--gray-900);
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.record p,
+.surname-item p,
+.dna-item p,
+.gen-card .resource p {
+    color: var(--gray-600);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
+
+/* ===== MILITARY & VETERANS SECTION ===== */
+.military-section {
+    background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+    padding: 5rem 0;
+    color: var(--white);
+}
+
+.military-section h2 {
+    font-family: var(--font-serif);
+    color: var(--white);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.military-section .section-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+.military-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.mil-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: var(--transition-base);
+}
+
+.mil-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.mil-card h3 {
+    color: var(--white);
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #9ca3af;
+}
+
+.wwii-content,
+.modern-content,
+.hero-list,
+.vet-resources {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.wwii-item,
+.modern-item,
+.hero,
+.vet-item {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid #9ca3af;
+}
+
+.wwii-item h4,
+.modern-item h4,
+.hero h4,
+.vet-item h4 {
+    color: #d1d5db;
+    font-size: 1rem;
+    margin-bottom: 0.375rem;
+}
+
+.wwii-item p,
+.modern-item p,
+.hero p,
+.vet-item p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin: 0.25rem 0 0;
+}
